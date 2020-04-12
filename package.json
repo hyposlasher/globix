@@ -1,6 +1,6 @@
 {
   "name": "globix-test-version",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "global state hook for react",
   "main": "lib/index.js",
   "scripts": {
