@@ -52,7 +52,7 @@ const AnotherComponent = () => {
 
 ## Authors
 
-* **Maushov Dinislam** - *Initial work* - [hyposlasher](https://github.com/hyposlasher)
+* **Dinislam Maushov** - *Initial work* - [hyposlasher](https://github.com/hyposlasher)
 
 ## License
 
