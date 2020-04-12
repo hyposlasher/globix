@@ -1,0 +1,30 @@
+{
+  "name": "globix-test-version",
+  "version": "1.0.2",
+  "description": "global state hook for react",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "react",
+    "global",
+    "global-state",
+    "global-state-hook",
+    "global-hook",
+    "state-manegement",
+    "hook",
+    "globix"
+  ],
+  "author": "hyposlasher",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "add": "^2.0.6",
+    "react": "^16.13.1"
+  }
+}
