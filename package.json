@@ -25,7 +25,7 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4"
   },
-  "dependecies": {
+  "dependencies": {
     "react": "^16.13.1"
   },
   "homepage": "https://github.com/hyposlasher/globix",
