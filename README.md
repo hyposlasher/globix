@@ -11,7 +11,7 @@ npm i --save globix-test-verison
 
 1. Wrap your Root Component with `GlobixProvider` and pass optional `initialValues` props:
 ```
-import { GlobixProvider } from 'globix-test-version';
+import { GlobixProvider } from 'globix';
 
 ReactDOM.render(
   <GlobixProvider initialState={{name: 'Daron Malakian'}}>
@@ -23,7 +23,7 @@ ReactDOM.render(
 
 2. Get global state anywhere in your application:
 ```
-import { useGlobix } from 'globix-test-version';
+import { useGlobix } from 'globix';
 
 const SomeComponent = () => {
   const { globaslState } = useGlobix();
@@ -34,7 +34,7 @@ const SomeComponent = () => {
 
 3. Set global state from anywhere you want:
 ```
-import {useGlobix} from 'globix-test-version';
+import {useGlobix} from 'globix';
 
 const AnotherComponent = () => {
   const { globalState, setGlobalState } = useGlobix();
