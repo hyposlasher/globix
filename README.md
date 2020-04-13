@@ -10,7 +10,7 @@ npm i --save globix
 ## Usage
 
 ### Wrap your Root Component with `GlobixProvider` and pass optional `initialValues` props:
-```
+```javascript
 import { GlobixProvider } from 'globix';
 
 ReactDOM.render(
@@ -22,7 +22,7 @@ ReactDOM.render(
 ```
 
 ### Get global state anywhere in your application:
-```
+```javascript
 import { useGlobix } from 'globix';
 
 const SomeComponent = () => {
@@ -33,7 +33,7 @@ const SomeComponent = () => {
 ```
 
 ### Set global state from anywhere you want:
-```
+```javascript
 import {useGlobix} from 'globix';
 
 const AnotherComponent = () => {
