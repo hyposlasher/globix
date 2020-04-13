@@ -4,7 +4,7 @@ Globix is the easiest way to bring global state to your React App
 
 ## Installing
 ```
-npm i --save globix-test-verison
+npm i --save globix
 ```
 
 ## Usage
