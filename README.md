@@ -34,7 +34,7 @@ const SomeComponent = () => {
 
 ### Set global state from anywhere you want:
 ```javascript
-import {useGlobix} from 'globix';
+import { useGlobix } from 'globix';
 
 const AnotherComponent = () => {
   const { globalState, setGlobalState } = useGlobix();
